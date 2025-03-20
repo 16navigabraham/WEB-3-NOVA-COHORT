@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <!-- FORM -->
+     <form action="./index.html" method="get" id="sampleform">
+        <label for="firstname">FirstName:</label>
+        <input type="text" name="firstname" id="firstname"maxlength="5" required/>
+
+        <br  /><br />
+        
+        <label for="last name">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" />
+
+        <br  /><br />
+        
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" />
+
+        <br  /><br />
+
+        <input type="password" name="password" id="password" /> 
+       <br  /><br />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <br  /><br />
+
+        <P>>Piza Size:</P>
+           <label>
+            <input type="radio" name="size" value="small" >Small
+            </label>
+            <label>
+            <input type="radio" name="size" value="medium" >medium
+        </label>
+            <label>
+            <input type="radio" name="size" value="large" >large
+        </label>
+
+     <br  /><br  />
+     
+        Pizza Toppings:
+        <label>
+            <input type="checkbox" name="topping" value="pepperoni" >Pepperoni
+        </label>
+        <label>
+            <input type="checkbox" name="topping" value="mushrooms" >Mushrooms
+        </label>
+        <label>
+            <input type="checkbox" name="topping" value="olives" >Olives
+        </label>
+
+        <br /><br />
+
+        <select name="countrycode" id="countryCode"required>
+            <option value="">Select Option</option>
+            <option value="+91">india</option>
+            <option value="+1">canada</option>
+            <option value="+234">Nigeria</option>
+        </select>
+
+        <br /><br  />
+        <button>Sign Up</button>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance party</title>
+    <style>h1 {
+        text-align: center;
+      }</style>
+   
+</head>
+<body>
+    <h1>MULTICOLOURED DRESS DANCE PARTY</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4_DiC2FUm20?si=H1Luq1ikrkAHPfKO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Form  -->
+    <form action="./index.html" method="get" id="sampleform">
+        <label for="Fullname">Enter Your FULLNAME</label>
+        <input type="text" name="firstname" id="Fullname" required autocapitalize="10" aria-autocomplete="both"autofocus/>
+        <br /><br />
+        <label for="email">Enter Your EMAIL:</label>
+        <input type="text" id="emailInput" name="emailInput" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" required>
+<p id="emailValidation"></p>
+
+<script>
+    const emailInput = document.getElementById('emailInput');
+    const emailValidation = document.getElementById('emailValidation');
+
+    emailInput.addEventListener('input', () => {
+        if (emailInput.checkValidity()) {
+            emailValidation.textContent = "";
+            emailValidation.style.color = "green"
+        } else {
+            emailValidation.textContent = emailInput.title;
+            emailValidation.style.color = "red"
+        }
+    });
+</script>
+        <br /><br />
+        <label for="Arrivaltime">Arrivaltime (date and time):</label>
+       <input type="datetime" id="Arrivaltime" name="arrivaltime"minlength="2"/>
+        <br /><br />
+          <label for="Departuretime">Departuretime(date and time):</label>
+         <input type="datetime-local" id="Departuretime" name="departuretime">
+            <br /><br />
+       <label for="phone number">Phone number:</label>
+       <input type="tel" name="phone number" id="Phone number" placeholder="***********" maxlength="11" />
+        <br /><br />
+        <label for="random number">random number (between 0 and 10):</label>
+        <input type="range" name="" id="giveaway id"  maxlength="4" step="1" required/>
+      <br /><br />
+      <label for="social media handle">Instagram handle:</label>
+      <input type="url" name="social media handle" id="social media page link" required />
+<br /><br />
+<label for="try entering a digit ">testing readonly:</label>
+<input type="number" name="digit entering" id="lol" required readonly placeholder="readonly" />
+<br /><br />
+        <label for="color">Select Your Dress Color:</label>
+        <input type="color" value="#076432" id="color" required/>
+        <br /><br />
+        <label for="gsearch">Search Google:</label>
+<input type="search" id="gsearch" name="gsearch" placeholder="www.***************.com" />
+<br /><br />
+<p>when do you  think the event should hold  </p>
+        <label for="best week for the event">select week:</label>
+        <input type="week" name="week" id="selected week" required step="2"/>
+        <br /><br />
+        <label for="best month for the event">select month:</label>
+        <input type="month" name="month" id="selected month" required/>
+        <br /><br />
+        <label for="time">what time is best for the event eachday:</label>
+        <input type="time" name="time" id="selected time" required />
+        <br /><br />
+
+        <p>foodie section </p>
+        <li>
+            <li>*eba and egusi soup </li>
+            <li>*amala and ewedu soup</li>
+            <li>*semo and okra soup</li>
+            <li>*jollof rice</dd>
+        </li>
+        <br /><br />
+        <p>sumit an image of your best food </p>
+        <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple><br><br>
+  
+<br /><br />
+        <input type="image" src="tick.png" alt="Submit" >
+<button type="submit">submit details </button>
+</body>
+</html>
