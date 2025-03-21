@@ -1,0 +1,43 @@
+/* External CSS */
+/* TYPE SELECTORS */
+h1{
+    font-size: 100px;
+}
+/* CLASS SELECTORS */
+.underline{
+    text-decoration: underline;
+}
+.red{
+    color: bisque;
+}
+
+/* ID SELECTORS */
+#lastitem{
+    text-decoration: line-through;
+}
+/* CHILD SELECTORS */
+div > h2 {
+    text-shadow: 3px 3px 3px blueviolet;
+}
+div > p> a{
+    text-transform: uppercase;
+}
+
+/* DESECENDANT SELECTOR */
+div a {
+    font-weight: bolder;
+}
+/* ADJANCENT SIBLINGS */
+h3+p {
+    font-style: italic;
+}
+/* GENERAL SIBLINGS */
+h3~p {
+    text-shadow: 2px 3px 4px rgba(10, 10, 119, 0.68);
+}
+/*ATTRIBUTE SELECTORS */
+input[type="number"]{
+    border: green 2px solid;
+}
+/* UNIVERSAL SELCETOR USES THE * TO SELECT ALL ELEMENTS */
+/* seudo class and elements in the next class */
