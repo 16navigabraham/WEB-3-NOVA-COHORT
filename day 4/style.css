@@ -9,7 +9,7 @@ body{
     text-transform: capitalize; /* add this line */
   }
   h1 {
-    text-shadow: 2px 2px #193dbd;
+    text-shadow: 4px 4px #193dbd;
   }
   h1 div.a {
     font-size: 17px;
