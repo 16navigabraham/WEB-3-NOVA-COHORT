@@ -1,4 +1,32 @@
 /*External CSS */
 body{
-    background-color: powderblue;
+    background-color: powderblue;}
+    .highlighted {
+        text-align: center;
+        color: blue; 
 }
+.highlighted {
+    text-transform: capitalize; /* add this line */
+  }
+  h1 {
+    text-shadow: 2px 2px #193dbd;
+  }
+  h1 div.a {
+    font-size: 17px;
+  }
+  #p1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(57, 185, 74);
+  }
+  #p1 {
+    text-transform: uppercase;
+  }
+  #p1 {
+    color: rgb(197, 14, 14); 
+  }
+  
+  
+#p1 {
+    font-size: 72px;
+  }
+  
