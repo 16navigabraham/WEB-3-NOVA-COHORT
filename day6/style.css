@@ -1,0 +1,38 @@
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+  border: 1px solid #1275a0;
+    border-radius: 20px;                                            
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+button:hover{
+    background-color: transparent;
+}
+input:focus{
+    padding: 12px 20px;
+    background-color:#1c769d;
+
+}
+/* required PSEOUD CLASS TO STYLE THE REQUIRED INPUT */
+    input:required {
+        border: rgb(168, 110, 23);
+        padding-inline: 20px;
+      }
+      p::first-line{
+        font-weight: bold;
+      }
+      p::before{
+        /* content: url("https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif?cid=790b7611hvcg8vsj5iglkqvhkf5fady48pu7xdgecsswndov&ep=v1_gifs_trending&rid=giphy.gif&ct=g");
+      */
+      }
+      p::selection{
+        background-color: greenyellow;
+      }
+  p::first-letter{
+    font-size: 24px;
+  }
+
+  

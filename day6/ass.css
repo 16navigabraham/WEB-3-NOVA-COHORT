@@ -1,0 +1,47 @@
+
+
+:checked
+/* - Style checked checkboxes or radio buttons: */
+
+
+input:checked {
+    background-color: blue;
+}
+
+
+:first-child
+ /* Style the first paragraph in an article: */
+
+
+article p:first-child {
+    font-size: 1.2em;
+}
+
+
+:first-of-type
+/* - Style the first unordered list in a section: */
+
+
+section ul:first-of-type {
+    list-style: none;
+}
+
+
+:has()
+/* - Style headings that are followed by a paragraph: */
+
+
+h2:has(+ p) {
+    color: red;
+}
+
+
+::placeholder
+/* - Style placeholder text in input fields: */
+
+
+input::placeholder {
+    color: gray;
+}
+
+
